@@ -1,5 +1,3 @@
-# orbital-1
-
 Team Name:
 
  DotsTech
