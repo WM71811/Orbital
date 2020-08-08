@@ -109,8 +109,12 @@
                                 <li class="wppb-form-field wppb-default-biographical-info" id="wppb-form-element-14">
                                     <label for="description">Introduction **(please input "company" or "student" here.
                                       Only users identified as "company" can add contacts in the contact page)</label>
-                                    <input class="text-input"  name="introduction" maxlength="70"
-                                       class="default_field_description " id="description" wrap="virtual">
+                                    <!--<input class="text-input"  name="introduction" maxlength="70"
+                                       class="default_field_description " id="description" wrap="virtual">-->
+                                        <select name="introduction" id="description">
+                                                  <option value="student">student</option>
+                                                  <option value="company">company</option>
+                                       </select>
 
                 </textarea></li>
                             </ul>
